@@ -1,7 +1,6 @@
-# 📈 Stock Price Tracker (.NET)
-
-A lightweight command-line C# application built with .NET that tracks real-time stock prices over the past 30 days.
-
+# 📈 Stock Price Tracker (.NET)  
+  
+#### A lightweight .NET console application that fetches real-time stock data for the past 30 days using the Alpha Vantage API and generates a price trend graph as a JPG image for quick reference and analysis.
 ---
 
 ## ✨ Features
