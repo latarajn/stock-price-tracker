@@ -34,9 +34,44 @@ Set your API key in your system environment variables:
 
 For local testing, you may hardcode the API key in `Program.cs`:
 
-```csharp id="hardcode2"
+```csharp ```
 var apiKey = "your_api_key_here";
 
-⚠️ Do not commit hardcoded API keys to source control. This is for local development only.
-⚠️ Important
-The application will not run without the ALPHAVANTAGE_API_KEY environment variable set.
+⚠️ Do not commit hardcoded API keys to source control. This is for local development only.  
+⚠️ Important  
+   The application will not run without the ALPHAVANTAGE_API_KEY environment variable set.
+
+#### ⚙️ Installation
+
+Clone the repository:  
+git clone https://github.com/yourusername/stock-price-tracker.git  
+cd stock-price-tracker  
+
+Build the project:  
+dotnet build  
+
+#### 🖥️ How It Works
+This application runs in interactive CLI mode.
+After starting the program, you will be prompted to enter a stock symbol
+  
+#### ▶️ Running the Application  
+dotnet run  
+Then you will see:  
+Enter stock symbol: (example AAPL)  
+
+#### 📊 Output   
+Enter stock symbol: AAPL  
+--- Stock Summary last month ---  
+Highest Price: $287.51  
+Lowest Price: $253.50  
+Latest Close: $287.51  
+Trend: Upward  
+Chart saved as AAPL_LastMonth.jpg in project folder.  
+    
+#### 📌 Notes
+This is an interactive CLI tool  
+No command-line arguments are required  
+Input is handled via Console.ReadLine()  
+Graphs are saved as .jpg files in the project directory  
+
+
