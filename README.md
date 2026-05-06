@@ -26,7 +26,17 @@ You must provide an API key using one of the following methods:
 Set your API key in your system environment variables:
 
 #### Windows (PowerShell)
-```bash
+```bash ```
 setx ALPHAVANTAGE_API_KEY "your_api_key_here"
+Set your API key in your system environment variables:
 
+### 🧪 Option 2: Local Hardcoding (Development Only)
 
+For local testing, you may hardcode the API key in `Program.cs`:
+
+```csharp id="hardcode2"
+var apiKey = "your_api_key_here";
+
+⚠️ Do not commit hardcoded API keys to source control. This is for local development only.
+⚠️ Important
+The application will not run without the ALPHAVANTAGE_API_KEY environment variable set.
