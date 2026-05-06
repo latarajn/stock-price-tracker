@@ -57,16 +57,20 @@ After starting the program, you will be prompted to enter a stock symbol
 #### ▶️ Running the Application  
 dotnet run  
 Then you will see:  
-Enter stock symbol: (example AAPL)  
+Enter stock symbol: (for example AAPL)  
 
 #### 📊 Output   
 Enter stock symbol: AAPL  
---- Stock Summary last month ---  
+--- Stock Summary last month as of 5/6/2026 ---  
 Highest Price: $287.51  
 Lowest Price: $253.50  
 Latest Close: $287.51  
 Trend: Upward  
 Chart saved as AAPL_LastMonth.jpg in project folder.  
+
+## 📈 Stock Graph
+
+![AAPL Last Month Graph](Graph/AAPL_LastMonth.jpg)
     
 #### 📌 Notes
 This is an interactive CLI tool  
