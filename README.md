@@ -59,7 +59,7 @@ dotnet run
 Then you will see:  
 Enter stock symbol: (for example AAPL)  
 
-#### 📊 Output   
+## 📊 Output   
 Enter stock symbol: AAPL  
 --- Stock Summary last month as of 5/6/2026 ---  
 Highest Price: $287.51  
@@ -68,7 +68,7 @@ Latest Close: $287.51
 Trend: Upward  
 Chart saved as AAPL_LastMonth.jpg in project folder.  
 
-## 📈 Stock Graph
+### 📈 Stock Graph
 
 ![AAPL Last Month Graph](Graph/AAPL_LastMonth.jpg)
     
