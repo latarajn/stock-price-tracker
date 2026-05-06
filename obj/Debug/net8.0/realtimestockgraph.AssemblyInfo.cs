@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("realtimestockgraph")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9f7b60ae38599f092c52531fc978f1f050734ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("realtimestockgraph")]
 [assembly: System.Reflection.AssemblyTitleAttribute("realtimestockgraph")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

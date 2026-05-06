@@ -26,6 +26,27 @@ if (prices.Count == 0)
     return;
 }
 
+var allPrices = prices.Values.ToList();
+
+double highest = allPrices.Max();
+double lowest = allPrices.Min();
+
+// Latest = most recent date
+var latestDate = prices.Keys.Max();
+double latest = prices[latestDate];
+
+Console.WriteLine("\n--- Stock Summary last month ---");
+Console.WriteLine($"Highest Price: ${highest:F2}");
+Console.WriteLine($"Lowest Price: ${lowest:F2}");
+Console.WriteLine($"Latest Close: ${latest:F2}");
+
+double first = prices[prices.Keys.Min()];
+
+string trend = latest > first ? "Upward" :
+               latest < first ? "Downward" : "Stable";
+
+Console.WriteLine($"Trend: {trend}");
+
 string pngFile = $"{symbol}_LastMonth.png";
 string jpgFile = $"{symbol}_LastMonth.jpg";
 
